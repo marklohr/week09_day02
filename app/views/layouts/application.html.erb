@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app='calculator'>
+<head>
+  <title>Calculator</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<container>
+  <%= yield %>
+</container>
+</body>
+</html>
+
+
